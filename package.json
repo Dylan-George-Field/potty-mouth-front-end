@@ -1,0 +1,41 @@
+{
+  "name": "potty-mouth",
+  "version": "0.0.1",
+  "description": "Potty Mouth is a digital graffiti wall app that lets you share messages with people who've been in the same physical location. Create and Print your own.",
+  "productName": "Potty Mouth - Speak like no one's listening",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Dylan George Field <dylan.george.field@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.6.0",
+    "axios": "^0.18.0",
+    "google-maps": "^3.3.0",
+    "quasar": "^1.9.11",
+    "vue-i18n": "^7.3.3",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.6.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "resolutions": {
+    "ajv": "6.8.1"
+  }
+}

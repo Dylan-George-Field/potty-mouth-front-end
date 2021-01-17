@@ -26,7 +26,7 @@ export default {
   },
   mounted () {
     var self = this
-    maps.KEY = 'AIzaSyCY_WfDklwmFyq31lWApm_9jkdgSVVVbQI'
+    maps.KEY = '{{google-key}}'
     maps.LIBRARIES = ['places']
 
     maps.load(function (google) {
